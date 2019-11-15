@@ -1,6 +1,7 @@
 <?php
   $title = "Login Page";
   require_once "./assets/template/header_auth.php";
+  //include database
   include('database_config.php');
   
 ?>
