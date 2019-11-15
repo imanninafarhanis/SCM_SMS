@@ -9,7 +9,7 @@
   require_once "./database_config.php";
   $conn = db_connect();
   //$result = mysqli_query($conn);
-  
+  //%result abbas
 
   $row = array();
     $query = "SELECT category_id, category_name FROM category ORDER BY category_id DESC";
