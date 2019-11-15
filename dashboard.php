@@ -12,7 +12,7 @@
   require_once "./database_config.php";
   $conn = db_connect();
 
-
+// this is the query to count for counter analysis
   $query = "SELECT count(username) AS total_user FROM user";
   $result = mysqli_query($conn, $query);
   $values = mysqli_fetch_assoc($result);
